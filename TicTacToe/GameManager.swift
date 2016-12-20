@@ -132,7 +132,6 @@ class GameManager {
 
         moveCount += 1 // increment move count. used to check for draw
 
-        print("tile pressed: \(tile.row) : \(tile.column)")
         tile.setTitle(turn.tileString, for: .normal)
 
         checkCurrentGame(row: tile.row, column: tile.column)
