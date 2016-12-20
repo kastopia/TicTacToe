@@ -114,7 +114,7 @@ class GameManager {
         }
 
         // check for tie
-        if moveCount == TileSize*TileSize { // n^2 - 1
+        if moveCount == TileSize*TileSize { // n^2
             gameFinished(winner: .none)
         }
     }
