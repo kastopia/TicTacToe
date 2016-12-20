@@ -14,6 +14,8 @@
 		EA0CCE0C1E08CD830000FD5C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA0CCE0A1E08CD830000FD5C /* LaunchScreen.storyboard */; };
 		EA0CCE171E08CD830000FD5C /* TicTacToeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA0CCE161E08CD830000FD5C /* TicTacToeTests.swift */; };
 		EA0CCE221E08CD830000FD5C /* TicTacToeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA0CCE211E08CD830000FD5C /* TicTacToeUITests.swift */; };
+		EA0CCE301E08CE640000FD5C /* GameManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA0CCE2F1E08CE640000FD5C /* GameManager.swift */; };
+		EA0CCE321E08CED10000FD5C /* TicTacToeTile.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA0CCE311E08CED10000FD5C /* TicTacToeTile.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		EA0CCE1D1E08CD830000FD5C /* TicTacToeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TicTacToeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA0CCE211E08CD830000FD5C /* TicTacToeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicTacToeUITests.swift; sourceTree = "<group>"; };
 		EA0CCE231E08CD830000FD5C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA0CCE2F1E08CE640000FD5C /* GameManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameManager.swift; sourceTree = "<group>"; };
+		EA0CCE311E08CED10000FD5C /* TicTacToeTile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TicTacToeTile.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +103,8 @@
 			children = (
 				EA0CCE011E08CD830000FD5C /* AppDelegate.swift */,
 				EA0CCE031E08CD830000FD5C /* ViewController.swift */,
+				EA0CCE2F1E08CE640000FD5C /* GameManager.swift */,
+				EA0CCE311E08CED10000FD5C /* TicTacToeTile.swift */,
 				EA0CCE051E08CD830000FD5C /* Main.storyboard */,
 				EA0CCE081E08CD830000FD5C /* Assets.xcassets */,
 				EA0CCE0A1E08CD830000FD5C /* LaunchScreen.storyboard */,
@@ -260,7 +266,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				EA0CCE041E08CD830000FD5C /* ViewController.swift in Sources */,
+				EA0CCE321E08CED10000FD5C /* TicTacToeTile.swift in Sources */,
 				EA0CCE021E08CD830000FD5C /* AppDelegate.swift in Sources */,
+				EA0CCE301E08CE640000FD5C /* GameManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
